@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Implementación de Syntax Highlighting en Next.js para Resaltar Código
 
-## Getting Started
+Este proyecto es una aplicación simple construida con **Next.js** que muestra cómo resaltar bloques de código utilizando el paquete `react-syntax-highlighter`. Incluye un botón para copiar el código al portapapeles y un indicador visual de que el código ha sido copiado.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+La aplicación muestra un bloque de código con resaltado de sintaxis en el estilo Dracula. El usuario puede copiar el código al portapapeles utilizando un botón. El estado del botón cambia para indicar que el código ha sido copiado exitosamente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Resaltado de sintaxis para bloques de código.
+- Botón para copiar el código al portapapeles.
+- Indicador visual cuando el código ha sido copiado.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Requisitos
 
-## Learn More
+    npm i react-syntax-highlighter
+    npm i react-icons
+    npm i usehooks-ts
 
-To learn more about Next.js, take a look at the following resources:
+- [Node.js](https://nodejs.org/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Instalación
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Sigue estos pasos para clonar y ejecutar el proyecto:
 
-## Deploy on Vercel
+1. **Clona el repositorio:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   git clone https://github.com/urian121/resalta-codigo-con-syntaxhighlighting-usando-nextjs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Navega al directorio del proyecto
+   cd tu_repositorio
+
+3. Instala las dependencias
+   npm install
+
+4. Inicia el servidor de desarrollo
+   npm run dev
+
+5. Abre tu navegador y visita
+   http://localhost:3000/
+
+#### Resultado final
+
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/resaltar-codigo-con-syntax-highlighter-usando-nextjs.png)
+
+### Expresiones de Gratitud 🎁
+
+    Comenta a otros sobre este proyecto 📢
+    Invita una cerveza 🍺 o un café ☕
+    Paypal iamdeveloper86@gmail.com
+    Da las gracias públicamente 🤓.
+
+## No olvides SUSCRIBIRTE 👍
